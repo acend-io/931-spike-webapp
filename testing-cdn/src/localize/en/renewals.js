@@ -1,0 +1,56 @@
+const renewals = {
+  title: 'Renew your Policy',
+  expires: 'Current Policy Expires: %{date}',
+  amount: '$%{amount}/month',
+  newPolicy: 'New Policy:',
+  estimate: 'Estimated price',
+  success: 'You\'ve successfully added your %{asset}.',
+  estimateTooltip: 'Actual price to be shown in the cart.',
+  include: 'Would you like to include %{coverage} %{c}overage for this %{asset} in your new policy?',
+  coverage: '%{type} Coverage is an annual coverage that is charged to you monthly, on a per-%{asset} %{addon} basis.',
+  onPolicy: '%{current} of %{total} %{asset} on your current policy.',
+  renewNow: 'Renew Now',
+  continueRenewal: 'Continue Renewal Process',
+  unableToRenew: '<b>We are unable to renew your policy.</b><br />We’re sorry – as disclosed in prior correspondence, you cannot renew your policy due to your prior claims history.',
+  policyExpiresOn: 'Your current policy expires on %{expiryDate}.',
+  cannotPurchasePolicy: 'We’re sorry – you cannot purchase a policy at this time.',
+  renewalOnHorizon: '<b>Renewal on the horizon!</b><br />Your policy expires on %{expiryDate}. Let’s get you a new one.',
+  notRenewedContinueRenewal: '<b>You have not finished renewing your policy!</b><br />Your policy expires on %{expiryDate}.',
+  insuredValue: 'Insured Value: %{amount}',
+  overlap: '<strong>Remember</strong>: this Flight Coverage overlaps two policy periods so we\'ve split the payments between your current policy and your upcoming policy.',
+  startOver: {
+    startOver: 'Start Over',
+    problems: 'Uh oh, we\'re having trouble renewing your policy.',
+    eligible: 'You need to include at least one drone to be eligible for a policy renewal.',
+    howTo: 'You can add a new drone, or continue with the drone(s) on your current policy.',
+  },
+  gettingStarted: {
+    start: 'Let\'s start the renewal process!',
+    policyInfo: 'Your current <a href="http://www.droneinsurance.com">droneInsurance.com</a> policy <strong>expires on %{date}</strong>.<br /> To prevent a lapse in coverage and ensure your business and drone operations remain protected, you will need to renew your policy.',
+    getStarted: 'Get Started',
+    timeValue: 'We value your time. <br /> The renewal process is simple and only takes a few minutes.',
+  },
+  pilots: {
+    onPolicy: 'Pilots on your current policy',
+    indication: 'Please indicate which pilot(s) you would like to activate for the new policy.',
+    leastOne: 'Your upcoming policy requires at least one active pilot.',
+  },
+  physicalDamage: {
+    physicalDamageInfo: 'Physical Damage Coverage is an annual coverage that is charged to you monthly, on a per-drone basis',
+    wouldYou: 'Would you like to keep Physical Damage Coverage for this drone?',
+  },
+
+  flightCoverage: {
+    flightCoverageInfo: 'Flight Coverage is an on-demand coverage that can be scheduled on a per-drone basis and is payable in full at the time of purchase.',
+    purchase: '<strong>Would you like to purchase this Flight Coverage for the new policy as detailed below?</strong>',
+    flight: 'You previously scheduled Flight Coverage which would extend past your current policy period.',
+    payToday: 'This is what you will pay today it contains this Flight Coverage through the dates displayed.',
+    date: '<strong>%{date}: $%{liabilityAmount}</strong>',
+    currentPolicy: '<strong>Current policy:</strong> <br />',
+    newPolicy: '<strong>New policy:</strong> <br />',
+    paid: 'Paid<br /> $%{amount}',
+    dueToday: 'Due today<br /><span>$%{amount}</span>',
+  },
+};
+
+export default renewals;
